@@ -1,0 +1,15 @@
+# Los datos no van al repositorio: se descargan con scripts/01_descargar_datos.py
+datos/crudos/*
+!datos/crudos/.gitkeep
+datos/procesados/*
+!datos/procesados/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# macOS
+.DS_Store
