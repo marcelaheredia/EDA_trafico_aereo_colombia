@@ -66,7 +66,7 @@ Los datos **no están en el repositorio** (el archivo crudo pesa 61 MB): se desc
 con un comando desde el portal oficial.
 
 ```bash
-git clone https://github.com/<usuaria>/EDA_trafico_aereo_colombia.git
+git clone https://github.com/marcelaheredia/EDA_trafico_aereo_colombia.git
 cd EDA_trafico_aereo_colombia
 pip install -r requirements.txt
 python scripts/01_descargar_datos.py
